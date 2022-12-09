@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,12 @@
     <title>Document</title>
 </head>
 <body>
+    <script>
+       var A=parseInt(prompt("Ingrese el valor de A"));
+       var B=parseInt(prompt("Ingrese el valor de B"));
+       var C=parseInt(prompt("Ingrese el valor de C")); 
+       document.write("El cuadrado de la suma es: " + Math.pow(A+B+C,2) + "</br> El producto de los valores leidos es: "+ (A*B*C) + "</br> El cubo del producto es: " + Math.pow(A*B*C,3) + "</br> La diferencia entre el cuadrado de la suma con respecto al cubo del producto es: "+ (Math.pow(A+B+C,2) / Math.pow(A*B*C,3)) );
+    </script>
     
 </body>
 </html>
