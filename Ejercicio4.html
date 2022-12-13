@@ -11,7 +11,12 @@
        var A=parseInt(prompt("Ingrese el valor de A"));
        var B=parseInt(prompt("Ingrese el valor de B"));
        var C=parseInt(prompt("Ingrese el valor de C")); 
-       document.write("El cuadrado de la suma es: " + Math.pow(A+B+C,2) + "</br> El producto de los valores leidos es: "+ (A*B*C) + "</br> El cubo del producto es: " + Math.pow(A*B*C,3) + "</br> La diferencia entre el cuadrado de la suma con respecto al cubo del producto es: "+ (Math.pow(A+B+C,2) / Math.pow(A*B*C,3)) );
+       var suma=Math.pow(A+B+C,2);
+       var cubo=Math.pow(A*B*C,3); 
+       document.write("El cuadrado de la suma es: " + suma);  
+       document.write("<br> El producto de los valores leidos es: "+ (A*B*C));  
+       document.write("<br> El cubo del producto es: " + cubo); 
+       document.write("<br> La diferencia entre el cuadrado de la suma con respecto al cubo del producto es: "+ suma,2 - cubo,3);
     </script>
     
 </body>
